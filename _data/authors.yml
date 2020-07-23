@@ -1,0 +1,12 @@
+# Sample Authors
+# Remove file or replace with your own
+
+Saber:
+  name: Sabercrafts
+  picture: /images/default-user.jpg
+  twitter: "@billyrick"
+  links:
+    - title: Twitter
+      url: https://twitter.com/billyrick
+      icon: fab fa-twitter-square
+

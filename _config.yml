@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
-# remote_theme: mmistakes/so-simple-theme
+#theme: jekyll-theme-so-simple
 skin: "/assets/css/skins/custom.css"
 locale: en-US
 title: "Sabercrafts"

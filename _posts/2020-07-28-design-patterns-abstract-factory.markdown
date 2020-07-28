@@ -16,7 +16,7 @@ I personally find the "Abstract Factory" naming a confusing one. I will try to h
 
  The `Abstract` in Abstract Factory  is not about how the factory is designed but instead it is about WHAT the factory is designed to produce. This factory's task is to produce objects based on an "abstract concept" meaning that this factory is free to produce a wide range of objects so long as they fall under that "category" or "general idea". It maintains an "abstract" or high-level criteria for what kind of objects it produces.
 
- For example, a Hardware Factory can produce all kinds of hardware-related objects, e.g monitors,keyboards and mouses. Any more specific than that is left for the concrete class to define. Maybe Gaming Hardware ? or Low-end Hardware ? And of course, the client knows nothing about these details.  The client only knows about what the Abstract Factory defined for it.
+ For example, a Hardware Factory can produce all kinds of hardware-related objects, e.g monitors,keyboards and mouses. Any more specific than that is left for the concrete class to define and encapsulate. Maybe Gaming Hardware ? or Low-end Hardware ? And of course, the client knows nothing about these details.  The client only knows about what the Abstract Factory class's public interface.
 
  The following diagram shows the Abstract Factory design for the above mentioned example:
 ![Abstract Factory Diagram 1](/images/blog/design-patterns-abstract-factory/design_patterns_abstract_factory_diagram_1.png)

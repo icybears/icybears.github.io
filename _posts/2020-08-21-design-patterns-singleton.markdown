@@ -12,7 +12,7 @@ Whenever we want to create an instance of a class from anywhere in our code, we 
 ```java
  ClassA instance = new ClassA();
 ```
- the constructor is by default public and therefore freely accessible by outside users, and on top of that, the constructor guarantees the creation of a new instance in memory of that class.
+The constructor is by default public and therefore freely accessible by outside users, and on top of that, the constructor guarantees the creation of a new instance of the class in memory.
 
  It turns out that there are cases where we do not want users of our class to enjoy the privilege of being able to create new objects of a class at will using the publically accessible constructor. In the case of the Singleton pattern, the goal is to make sure only a single instance of a class can be created and accessible to all users.
 

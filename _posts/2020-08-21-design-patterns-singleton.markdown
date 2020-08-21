@@ -24,16 +24,16 @@ The constructor is by default public and therefore freely accessible by outside 
 {% highlight java %}
 public Type {
 
-private static Type instance;
+    private static Type instance;
 
-private Type(){}
+    private Type(){}
 
-public static Type getInstance(){
-    if(instance == null){
-        instance = new Type();
+    public static Type getInstance(){
+        if(instance == null){
+            instance = new Type();
+        }
+        return instance;
     }
-    return instance;
-}
 }
 {% endhighlight %}
 

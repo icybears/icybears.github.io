@@ -44,13 +44,13 @@ The eager approach is to have an instance created and available the moment the c
 {% highlight java %}
 public Type {
 
-private static Type instance = new Type();
+    private static Type instance = new Type();
 
-private Type(){};
+    private Type(){};
 
-public static Type getInstance(){
-    return instance;
-}
+    public static Type getInstance(){
+        return instance;
+    }
 }
 {% endhighlight %}
 
@@ -63,20 +63,20 @@ To achieve Thread-safety and lazy-loading there are a couple of known approaches
 {% highlight java %}
 public Type {
 
-private static volatile Type instance;
+    private static volatile Type instance;
 
-private Type(){}
+    private Type(){}
 
-public static Type getInstance(){
-  if (instance == null) {
+    public static Type getInstance(){
+        if (instance == null) {
 			synchronized (Type.class) {
 				if (instance == null) {
 					instance = new Type();
 				}
 			}
 		}
-    return instance;
-}
+        return instance;
+    }
 }
 {% endhighlight %}
 

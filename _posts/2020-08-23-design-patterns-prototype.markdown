@@ -23,20 +23,22 @@ By default, Java supports cloning just by making a class implement Cloneable int
 ```java
 public class MyClass implements Cloneable{
 	
-        // A bunch of state
-        private int prop1;
-        private String prop2;
-        ....
-        private SomeType prop10;
+    /*
+    A bunch of state
+    */
+    private int prop1;
+    private String prop2;
+    ....
+    private SomeType prop10;
 
-        /*
-            A bunch of operations, accessors, mutators...
-        */
+    /*
+        A bunch of operations, accessors, mutators...
+    */
 
-        public MyClass clone() throws CloneNotSupportedException {
-            return (MyClass) super.clone();
-        
-        }
+    public MyClass clone() throws CloneNotSupportedException {
+        return (MyClass) super.clone();
+    
+    }
 
 }
 ```

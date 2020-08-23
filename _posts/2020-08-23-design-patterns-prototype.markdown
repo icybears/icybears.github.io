@@ -16,7 +16,7 @@ The idea of the Prototype pattern is to provide objects with an internal mechani
 
 The following is a diagram of the Prototype design pattern.
 
-![Prototype Design Diagram](/images/blog/design-patterns-builder/design_patterns_prototype_diagram_1.png)
+![Prototype Design Diagram](/images/blog/design-patterns-prototype/design_patterns_prototype_diagram_1.png)
 
 By default, Java supports cloning just by making a class implement Cloneable interface, and then we can implement the `clone()` method by delegating the cloning to `Object.clone()` inside our class's `clone()` method by calling super.clone(). See the following code snippet.
 

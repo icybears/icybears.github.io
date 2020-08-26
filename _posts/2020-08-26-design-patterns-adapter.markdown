@@ -20,3 +20,5 @@ From the above diagram we can clearly visualize how the adapter is a compatible 
 
 Otherwise, to resolve this "incompatibility" issue we would have to either modify the library code or our own code which not only breaks the Open/Closed Principle but can also be very costly and even impossible.
 
+The adapter object abides by the compatible type's interface by either subclassing a compatible type or by implementing a compatible interface, and is therefore able to communicate with the library. And because it encapsulates the incompatible type, it can also internally communicate with it, do whatever translations or conversions needed, and respond back to the library in a compatible way.
+

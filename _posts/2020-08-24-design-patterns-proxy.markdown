@@ -17,5 +17,3 @@ The following is a UML diagram of the pattern:
 ![Proxy Design Diagram](/images/blog/design-patterns-proxy/design_patterns_proxy_diagram_1.png)
 
 To summarize, a proxy is an object that can substitute some other object of interest AND wraps around it all at the same time.  The substitutability is achieved by having both the proxy and the object of interest share the same interface, and by wrapping around this object, the proxy can perform some "additional" logic (e.g access control, lazy loading, caching, remote access) before delegating to the actual object to do its job.
-
-I think we can say that a proxy simply embodies some extra step or extra logic that is added on top of an already existing object.

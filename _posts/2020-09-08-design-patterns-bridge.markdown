@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Decorator design pattern"
+title:  "The Bridge design pattern"
 
 categories: 
     - Design Patterns

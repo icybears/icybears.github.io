@@ -209,7 +209,7 @@ public class Closed implements TicketState {
 }
 ```
 
-Notice that a State object may hold a reference to the object it belongs to, here is is the `Ticket`, that way we can call methods on the `Ticket` object right from the `State` object. In this example, we are simply calling the `changeState()` method.
+Notice that a State object may hold a reference to the object it belongs to. in our example it's the `Ticket`, that way we can call methods on the `Ticket` object right from the `State` object. In this example, we are simply calling the `changeState()` method.
 
 To give you an overview of what we've done so far, here is the class diagram of the State design pattern for this example:
 

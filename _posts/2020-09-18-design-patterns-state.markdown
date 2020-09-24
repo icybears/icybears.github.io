@@ -219,3 +219,5 @@ The key idea is to simply extract state-related logic from the "context" class i
 
 In general, this is the UML class diagram of the state pattern:
 ![State design pattern general diagram](/images/blog/design-patterns-state/design_patterns_state_diagram_2.png)
+
+By using the State design pattern, we managed to have our "context" object (the ticket) behave differently depending on what state it is in a decoupled way, without having to hard-code it with a bunch of switch or if statements. This also brings the ability to add more states and their respective behavior without having to change existing code. 

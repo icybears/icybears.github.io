@@ -48,5 +48,5 @@ In general this is the UML class diagram of the Flyweight pattern:
 
 ![Flyweight design pattern general diagram](/images/blog/design-patterns-flyweight/design_patterns_flyweight_general.png)
 
-Notice that we can also have Flyweight that doesn't need to be shared because they have no intrinsic state to share across different contexts, but they can still be used to conduct operations using extrinsic state.
+Notice that we can also have Flyweight objects that don't need to be shared because they have no intrinsic state to share across different contexts, but they can still be used to conduct operations using extrinsic state.
 

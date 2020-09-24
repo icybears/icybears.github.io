@@ -13,8 +13,8 @@ The Flyweight design pattern is a structural design pattern that is aimed at ach
 When you are in a position where you're making a large number of objects of the same class and you ask yourself: Is there a way to reduce the memory cost for all these objects ?
 Well, you can make them "flyweight" and the way to do that is simple:
 Look at the state of your objects, figure out which state remains the same across a large number of these objects and which state is particular to each one of them.
--The state that remains the same across a large number of objects is refered to as the intrinsic state, it's the state that is context-independent, and thus is valid for a large number of objects (can be shared!).
--The state that is particular to each object is refered to as the extrinsic state, it's the state that differs from object to object, it depends on the context in which the object is.
+- The state that remains the same across a large number of objects is refered to as the intrinsic state, it's the state that is context-independent, and thus is valid for a large number of objects (can be shared!).
+- The state that is particular to each object is refered to as the extrinsic state, it's the state that differs from object to object, it depends on the context in which the object is.
 
 The Flyweight pattern suggests that a Flyweight object should only store intrinsic state and move extrinsic state into method parameters where that state is relevant to conduct some operation. The extrinsic state is passed directly when needed into the methods of the Flyweight, and it is the client that handles the storing or computing of this extrinsic state.
 

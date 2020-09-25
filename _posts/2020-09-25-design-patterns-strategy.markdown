@@ -15,7 +15,7 @@ Simply, our context object will reference a generic strategy interface that will
 For example, imagine we have a `Payment` object (the context) that exposes a `process()` method that allows to process a payment using a `PaymentProcessor`. The problem is that we want to accomodate for different payment processors. And the question is how to implement the `process()` method ?
 Since the implementation of this method will vary depending on which payment processor is used, it makes sense to delegate to the chosen `PaymentProcessor` to do the processing for us. And thus emerges the Strategy pattern. See the following diagram:
 
-![Stategy design pattern example 1](/images/blog/design-patterns-strategy/design_patterns_strategy_example_l.png)
+![Stategy design pattern example 1](/images/blog/design-patterns-strategy/design_patterns_strategy_example_1.png)
 
 This pattern allows us to avoid bloating the `process()` method with an implementation that is hardcoded for the different payment processors using things like conditionals. It also allows us to dynamically change the behavior of the `process()` method by being able to switch from using one payment processor (concrete strategy) to another at runtime by simply calling the `setProcessor()` method. We can also add more strategies without breaking existing code.
 

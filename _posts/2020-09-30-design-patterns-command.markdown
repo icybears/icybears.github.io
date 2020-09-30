@@ -104,7 +104,7 @@ public class StopCommand implements Command {
 }
 ```
 To get a larger view of what we've done so far, here is a UML class diagram of the classes previously mentioned and their relationships:
-![Command design pattern example](/images/blog/design-patterns-flyweight/design_patterns_command_diagram_1.png)
+![Command design pattern example](/images/blog/design-patterns-command/design_patterns_command_diagram_1.png)
 
 The last thing left is for a `Client` to instantiate a concrete `Command` and pass a `Service` object to it, and then instantiate a `Button` object and pass the concrete command to it. Something like:
 ```java
@@ -121,10 +121,10 @@ Eventually, the Command pattern is a layer of indirection and flexibility where 
 Because the command is an "objectified" request or method call, you can swap out commands at runtime since it's as simple as passing a different command object to the same invoker and it will result in different requests. This is [Dynamic dispatch](https://en.wikipedia.org/wiki/Dynamic_dispatch) in effect, and it's a recurrent theme in design patterns.
 
 This is the final diagram for our example:
-![Command design pattern final example](/images/blog/design-patterns-flyweight/design_patterns_command_diagram_2.png)
+![Command design pattern final example](/images/blog/design-patterns-command/design_patterns_command_diagram_2.png)
 
 And here is the overall diagram for the Command design pattern:
-![Command design pattern general diagram](/images/blog/design-patterns-flyweight/design_patterns_command_diagram_3.png)
+![Command design pattern general diagram](/images/blog/design-patterns-command/design_patterns_command_diagram_3.png)
 
 Note that the command object can have more state and methods that will give it more control over a request, allowing for functionalities such as undoing a request and redoing a request, though not necessarily related to the pattern itself, these features are almost always brought up when people talk about the Command pattern.
 

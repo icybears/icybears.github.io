@@ -34,7 +34,7 @@ google_fonts:
     weights: "400,400i,700,700i"
   - name: "Playfair Display"
     weights: "400,400i,700,700i"
-google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
+google_analytics: "UA-180342199-1" # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
   shortname: "sabercrafts" # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:

@@ -96,7 +96,7 @@ The result of course is:
 >
 >third handler called
 
-Note that a request can propagate through every handler in the chain, or it can propagate until it meets a specific handler that meets some kind of requirement to handle. The pattern simply enforces the creation of an ordered list of handlers that are able to handle the request and delegate to the next handler in line. 
+Note that a request can propagate through every handler in the chain, or it can propagate until it meets a specific handler that meets some kind of requirement to handle it. The pattern simply enforces the creation of a  "linked list" of handlers that are able to handle the request and delegate to the next handler in line. 
 
 Here is the general diagram for this pattern:
 

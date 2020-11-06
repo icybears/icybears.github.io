@@ -4,9 +4,9 @@
 Saber:
   name: Sabercrafts
   picture: /images/default-user.jpg
-  twitter: "@billyrick"
+  twitter: ""
   links:
     - title: Twitter
-      url: https://twitter.com/billyrick
+      url: 
       icon: fab fa-twitter-square
 

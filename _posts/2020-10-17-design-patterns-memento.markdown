@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Memento design pattern"
-
+description: "Design Patterns explained: The Memento Design Pattern, with example code and diagrams"
 categories: 
     - Design Patterns
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Adapter design pattern"
-
+description: "Design Patterns explained: The Adapter Design Pattern, with example code and diagrams"
 categories: 
     - Design Patterns
 tags:

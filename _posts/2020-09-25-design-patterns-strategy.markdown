@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Strategy design pattern"
-
+description: "Design Patterns explained: The Strategy Design Pattern, with example code and diagrams"
 categories: 
     - Design Patterns
 tags:

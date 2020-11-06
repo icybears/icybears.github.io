@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Factory Method design pattern"
-
+description: "Design Patterns explained: The Factory Method Design Pattern, with example code and diagrams"
 categories: 
     - Design Patterns
 tags:

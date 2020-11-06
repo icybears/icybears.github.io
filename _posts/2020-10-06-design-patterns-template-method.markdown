@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Template Method design pattern"
-
+description: "Design Patterns explained: The Template Method Design Pattern, with example code and diagrams"
 categories: 
     - Design Patterns
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Abstract Factory design pattern"
-
+description: "Design Patterns explained: The Abstract Factory Design Pattern, with example code and diagrams"
 categories: 
     - Design Patterns
 tags:

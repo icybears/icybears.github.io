@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Chain of Responsibility design pattern"
-
+description: "Design Patterns explained: The Chain of Responsibility Design Pattern, with example code and diagrams"
 categories: 
     - Design Patterns
 tags:

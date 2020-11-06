@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Composite design pattern"
-
+description: "Design Patterns explained: The Composite Design Pattern, with example code and diagrams"
 categories: 
     - Design Patterns
 tags:

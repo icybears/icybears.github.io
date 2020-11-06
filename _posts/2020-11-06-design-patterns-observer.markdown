@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Observer design pattern"
-
+description: "Design patterns explained: The Observer Design Pattern, with example code and diagrams"
 categories: 
     - Design Patterns
 tags:

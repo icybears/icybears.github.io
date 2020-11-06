@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Bridge design pattern"
-
+description: "Design Patterns explained: The Bridge Design Pattern, with example code and diagrams"
 categories: 
     - Design Patterns
 tags:

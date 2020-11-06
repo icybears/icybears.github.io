@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Proxy design pattern"
-
+description: "Design Patterns explained: The Proxy Design Pattern, with example code and diagrams"
 categories: 
     - Design Patterns
 tags:

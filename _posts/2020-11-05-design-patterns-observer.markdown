@@ -9,7 +9,8 @@ tags:
 ---
 
 
-The Observer pattern is a Behavioral pattern that is aimed at solving the case where one or multiple objects depend on an object of interest (the subject) to change or execute an operation in order for them to do their job. 
+The Observer pattern is a Behavioral pattern that is designed for solving the issue of one or multiple objects depend on an object of interest (the subject) to change or execute an operation in order for them to do their job. 
+
 The idea is that when a change or an operation happens, the subject notifies all the observers so they can do what they are supposed to do. For that, a subject must keep track of all the objects that wish to be notified. Since we're talking about one or multiple objects the subject will have to track them in a collection. Any object that wish to be notified should be able to "subscribe" to the subject (and get added to the collection), or unsubscribe from the subject (and get removed from the collection). When the "trigger" event happens (Again, it could be a change of state or a method call), the subject will then notify all the observers. This behavior simply consists in looping over the collection of subscribed objects and calling a specific method on them (e.g `update()`). Typically, an `Observer` interface defines the contract that observers should adhere to and it also allows to decouple the `Subject` from concrete observers.
 
 The code snippet below shows an implementation of a `Subject` class.

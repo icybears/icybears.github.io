@@ -48,7 +48,6 @@ So now instead of having a `StartButton` and `StopButton` with hard-coded method
 
 ```java
 public class Button {
-
 	private Command command;
 
     public Button(Command concreteCommand){
@@ -109,8 +108,8 @@ To get a larger view of what we've done so far, here is a UML class diagram of t
 The last thing left is for a `Client` to instantiate a concrete `Command` and pass a `Service` object to it, and then instantiate a `Button` object and pass the concrete command to it. Something like:
 ```java
 Service service = new Service();
-Command startCommand = new StartCommand();
-Command stopCommand = new StopCommand();
+Command startCommand = new StartCommand(service);
+Command stopCommand = new StopCommand(service);
 
 Button startButton = new Button(startCommand);
 Button stopButton = new Button(stopCommand);

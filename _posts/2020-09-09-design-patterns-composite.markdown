@@ -8,7 +8,7 @@ tags:
     - Object-oriented design
 ---
 
-To know and understand what the Composite is about let's first take a look at the following diagram:
+To understand what the Composite is about let's first take a look at the following diagram:
 
 ![Example of polymorphism](/images/blog/design-patterns-composite/design_patterns_composite_diagram_1.png)
 

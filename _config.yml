@@ -18,7 +18,7 @@ remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "/assets/css/skins/custom.css"
 locale: en-US
 title: "Sabercrafts"
-description: "An aspiring software engineer's dev blog."
+description: "A software engineer's tech blog."
 baseurl: "/" # the subpath of your site, e.g. "/blog"
 url: "https://icybears.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "/images/sabercrafts-logo.png"  # path of site logo, e.g. "/assets/images/logo.png"
